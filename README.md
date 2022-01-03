@@ -73,6 +73,7 @@ The bio-markers that are estimated:
 * D - the diffusion coefficient.
 
 Following are parametric maps of an osteosarcoma tumor, obtained using classic algorithms [[2]](#ref2):
+
 <br />
 
 <p align="center">
