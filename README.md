@@ -72,7 +72,7 @@ The bio-markers that are estimated:
 * D<sub>p</sub> - the pseudo-diffusion coefficient.
 * D - the diffusion coefficient.
 
-On this picture we can see parametric maps of an osteosarcoma tumor, taken from an article [[2]](#ref2), and obtained using the classic solver.
+Following are parametric maps of an osteosarcoma tumor, obtained using classic algorithms [[2]](#ref2).
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/82229571/143095269-1f1a4bcd-b778-4f97-b859-9bd1d4b04872.png" align="center" alt="Parameters maps" width="400" height="150">
@@ -235,8 +235,7 @@ We devided each comparison in to two - first, comapring the basic net and the cl
 
 <h2 id="clinical-data"> :stethoscope: Clinical Data</h2>
 
-Below are examples of bio-marker maps that were created from the solvers ouputs, for clinical data inputs.
-The inputs are upper abdomen DWI MRI scans.
+Below are examples of bio-marker maps that were created from the solvers ouputs, for clinical data inputs (upper abdomen DWI MRI scans).
 It is important to notice that clinical data always contains a significant amount of noise or inaccuracies.
 In addition, there are less b-values in each input. This explains the black "stains" in the Classic Solver's maps - there aren't enough b-values under 200 and the solver fails to converge in these areas.
 The nets, however, are capable of estimating the bio-markers even in ares with significant noise.
@@ -308,7 +307,7 @@ The nets, however, are capable of estimating the bio-markers even in ares with s
 
 <h2 id="references-and-credits"> :raised_hands: References and credits</h2>
 
-* Project supervisor: Shira Nemorovsky-Rotman. Some of the algorithems were implemented based on her code.
+* Project supervisor: Shira Nemorovsky-Rotman. Some of the algorithms were implemented based on her code.
 * The clinical data belongs to Harvard Medical School.
 * <a id="ref1">[[1]](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.995.1925&rep=rep1&type=pdf)</a> The IVIM model and DW MRI are explained in "Diffusion-Weighted MRI in the Body: Applications and Challenges in Oncology", D.-M. K. and D. J. Collins, American Journal of Roentgenology, pp. 1622-1635, 2007. [↩](#dw-mri)
 * <a id="ref2">[[2]](https://www.sciencedirect.com/science/article/abs/pii/S1361841512001703)</a> The parametric maps of an osteosarcoma tumor were taken from "Reliable estimation of incoherent motion parametric maps from diffusion-weighted MRI using fusion bootstrap moves", M. F., J. M. Perez-Rossello, M. J. Callahan, S. D. Voss, K. E., R. V. Mulkern and S. K. Warfield,  Medical image analysis, pp. 325-336, 2013. [↩](#the-ivim-model)
