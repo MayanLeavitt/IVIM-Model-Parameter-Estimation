@@ -290,14 +290,14 @@ The nets, however, are capable of estimating the bio-markers even in ares with s
 | File Name        | Description           |
 | ---------------- |:-----------------:|
 | top_defenitions.py | Defines the constant variables, and the functions for creating a net |
-| Least_Square_Solver.py | Implementation of the classic solver |
+| least_Square_Solver.py | Implementation of the classic solver |
 | solver_main.py | Executes the classic solver |
 | net_training_and_testing.py | Implementation of the nets training and testing protocols |
 | basic_net_defenition.py | Creates the training data for the basic net and trains it |
 | different_vars_net_defenition.py | Creates the training data for the first proposed net and trains it |
 | vars_with_input_net_defenition.py | Creates the training data for the second proposed net and trains it |
 | compare_solvers.py | Plots the comparison graphs between the different solvers |
-| Data_simulations.py  | Creates data that is used to test the solvers |
+| data_simulations.py  | Creates data that is used to test the solvers |
 | clinical_data_test.py | Tests all four solvers on clinical data |
 | weights | Contains the net weights |
 | classic_solver_estimations | Contains the classic solver's preformance variables |
