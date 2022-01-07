@@ -52,7 +52,6 @@ Diffusion-Weighted (DW) MRI is an imaging technique which deploys the diffusion 
 By using signals with different b values (proportional to the gradient of the magnetic field inside the scanner) the motion sensitivity is varied.
 
 <br />
-<br />
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/62880315/143689276-058e2ec4-98ac-4367-863d-5334b959bb44.png)
 
