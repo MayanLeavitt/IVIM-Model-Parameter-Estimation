@@ -22,7 +22,7 @@
 <br />
 <br />
 
-
+- [Summary](#summary)
 - [DW MRI](#dw-mri)
 - [The IVIM model](#the-ivim-model)
 - [Existing solvers](#existing-solvers)
@@ -32,6 +32,16 @@
 - [Files and Usage](#files-and-usage)
 - [References and credits](#references-and-credits)
 
+
+![-----------------------------------------------------](https://user-images.githubusercontent.com/62880315/143689276-058e2ec4-98ac-4367-863d-5334b959bb44.png)
+
+
+<h2 id="summary"> :book: Summary </h2>
+
+We proposed a novel architecture and training protocol for a network, which estimate the IVIM model parameters from a DW MRI signal. By estimating these parameters, it is possible to distinguish between healthy and pathological tissues. we implemented it and tested the proposed network on simulated data as well as on clinical data. 
+Our network achieved significantly improved results in terms of accuracy (RMSE). We conclude that the proposed network is more robust to different image quality conditions and thus can deal with noised data in a manner that accommodates real life clinical settings. 
+
+<br />
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/62880315/143689276-058e2ec4-98ac-4367-863d-5334b959bb44.png)
 
@@ -155,8 +165,8 @@ We devided each comparison in to two - first, comapring the basic net and the cl
 
 
 <h4> D comaprison </h4>
-<img src="https://user-images.githubusercontent.com/82229571/146633883-8635777c-cdde-4b8f-a18b-93ba31525630.png" align="left" width="395" height="285">
-<img src="https://user-images.githubusercontent.com/82229571/146633892-1f23cd6d-3360-49bc-b544-d10bfcef05e3.png" align="right" width="395" height="285">
+<img src="https://user-images.githubusercontent.com/82229571/146633883-8635777c-cdde-4b8f-a18b-93ba31525630.png" align="left" width="385" height="280">
+<img src="https://user-images.githubusercontent.com/82229571/146633892-1f23cd6d-3360-49bc-b544-d10bfcef05e3.png" align="right" width="385" height="280">
 <br />
 <br />
 <br />
@@ -175,8 +185,8 @@ We devided each comparison in to two - first, comapring the basic net and the cl
 
 
 <h4> D<sub>p</sub> comaprison </h4>
-<img src="https://user-images.githubusercontent.com/82229571/146633886-b1e6f56c-1df8-4786-9f34-52c561698c24.png" align="left" width="395" height="285">
-<img src="https://user-images.githubusercontent.com/82229571/146633891-023f4f0c-b051-4358-98c3-583657c17935.png" align="right" width="395" height="285">
+<img src="https://user-images.githubusercontent.com/82229571/146633886-b1e6f56c-1df8-4786-9f34-52c561698c24.png" align="left" width="385" height="280">
+<img src="https://user-images.githubusercontent.com/82229571/146633891-023f4f0c-b051-4358-98c3-583657c17935.png" align="right" width="385" height="280">
 <br />
 <br />
 <br />
@@ -194,8 +204,8 @@ We devided each comparison in to two - first, comapring the basic net and the cl
 <br />
 
 <h4> F<sub>p</sub> comaprison </h4>
-<img src="https://user-images.githubusercontent.com/82229571/146633884-43869eff-c129-4782-874d-62d6e5fe3054.png" align="left" width="395" height="285">
-<img src="https://user-images.githubusercontent.com/82229571/146633894-0abfd40e-93d7-460c-88a8-f4db8cd91d70.png" align="right" width="395" height="285">
+<img src="https://user-images.githubusercontent.com/82229571/146633884-43869eff-c129-4782-874d-62d6e5fe3054.png" align="left" width="385" height="280">
+<img src="https://user-images.githubusercontent.com/82229571/146633894-0abfd40e-93d7-460c-88a8-f4db8cd91d70.png" align="right" width="385" height="280">
 <br />
 <br />
 <br />
@@ -213,8 +223,8 @@ We devided each comparison in to two - first, comapring the basic net and the cl
 <br />
 
 <h4> Loss comaprison </h4>
-<img src="https://user-images.githubusercontent.com/82229571/146633885-a520b89f-3a69-4635-b190-608cb678cd1d.png" align="left" width="395" height="285">
-<img src="https://user-images.githubusercontent.com/82229571/146633895-e5490197-8d69-450a-9c3e-526f90db387a.png" align="right" width="395" height="285">
+<img src="https://user-images.githubusercontent.com/82229571/146633885-a520b89f-3a69-4635-b190-608cb678cd1d.png" align="left" width="385" height="280">
+<img src="https://user-images.githubusercontent.com/82229571/146633895-e5490197-8d69-450a-9c3e-526f90db387a.png" align="right" width="385" height="280">
 <br />
 <br />
 <br />
@@ -245,8 +255,8 @@ The nets, however, are capable of estimating the bio-markers even in ares with s
 <br />
 <br />
 
-<img src="https://user-images.githubusercontent.com/62880315/147814097-5dfbdc00-0b29-4f02-be34-d597a8940e42.png" align="left" width="395" height="285">
-<img src="https://user-images.githubusercontent.com/62880315/147814107-9be6928c-9671-486d-a59f-1598d00803c8.png" align="right" width="395" height="285">
+<img src="https://user-images.githubusercontent.com/62880315/147814097-5dfbdc00-0b29-4f02-be34-d597a8940e42.png" align="left" width="385" height="280">
+<img src="https://user-images.githubusercontent.com/62880315/147814107-9be6928c-9671-486d-a59f-1598d00803c8.png" align="right" width="385" height="280">
 <br />
 <br />
 <br />
@@ -263,8 +273,8 @@ The nets, however, are capable of estimating the bio-markers even in ares with s
 <br />
 <br />
 
-<img src="https://user-images.githubusercontent.com/62880315/147814115-32687f27-6c1b-4b2d-8a88-9d689c1b3f39.png" align="left" width="395" height="285">
-<img src="https://user-images.githubusercontent.com/62880315/147814125-c2adfa3d-8f2d-4a32-8489-89dded967484.png" align="right" width="395" height="285">
+<img src="https://user-images.githubusercontent.com/62880315/147814115-32687f27-6c1b-4b2d-8a88-9d689c1b3f39.png" align="left" width="385" height="280">
+<img src="https://user-images.githubusercontent.com/62880315/147814125-c2adfa3d-8f2d-4a32-8489-89dded967484.png" align="right" width="385" height="280">
 <br />
 <br />
 <br />
