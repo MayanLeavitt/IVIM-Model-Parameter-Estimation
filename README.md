@@ -36,7 +36,7 @@
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/62880315/143689276-058e2ec4-98ac-4367-863d-5334b959bb44.png)
 
 
-<h2 id="summary"> :book: Summary </h2>
+<h2 id="summary"> :pencil: Summary </h2>
 
 We proposed a novel architecture and training protocol for a network, which estimates the IVIM model parameters from a DW MRI signal. By estimating these parameters, it is possible to distinguish between healthy and pathological tissues. we implemented it and tested the proposed network on simulated data as well as on clinical data. 
 Our network achieved significantly improved results in terms of accuracy (RMSE). We conclude that the proposed network is more robust to different image quality conditions and thus can deal with noised data in a manner that accommodates real life clinical settings. 
